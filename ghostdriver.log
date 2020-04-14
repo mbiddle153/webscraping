@@ -1,0 +1,12 @@
+[INFO  - 2020-04-14T18:09:14.492Z] GhostDriver - Main - running on port 62954
+[INFO  - 2020-04-14T18:09:14.993Z] Session [0cd89860-7e7b-11ea-8394-c31bfdbdec8b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-04-14T18:09:14.993Z] Session [0cd89860-7e7b-11ea-8394-c31bfdbdec8b] - page.customHeaders:  - {}
+[INFO  - 2020-04-14T18:09:14.993Z] Session [0cd89860-7e7b-11ea-8394-c31bfdbdec8b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-04-14T18:09:14.993Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0cd89860-7e7b-11ea-8394-c31bfdbdec8b
+[ERROR - 2020-04-14T18:10:26.945Z] Session [0cd89860-7e7b-11ea-8394-c31bfdbdec8b] - page.onError - msg: Unhandled promise rejection t: request to /button-state/api/v5/button-state?skus=6364253&conditions=&storeId=&destinationZipCode=&context=pdp&consolidated=false&source=buttonView&xboxAllAccess=false timed out after 5000ms
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-14T18:10:26.945Z] Session [0cd89860-7e7b-11ea-8394-c31bfdbdec8b] - page.onError - stack:
+  (anonymous function) (https://assets.bbystatic.com/pricing/price/dist/client/client-245dcb2ac3f08c5a6a69aee7a4d74a4a.js:27)
+
+  phantomjs://platform/console++.js:263 in error
